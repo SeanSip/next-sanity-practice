@@ -6,10 +6,11 @@ const config = defineConfig({
   projectId: 'lbs5w627',
   dataset: 'production',
   title: 'Sanity Headless CMS Practice',
-  apiVersion: '2023-09-19',
+  apiVersion: '2023-09-20',
   basePath: '/admin',
   plugins: [deskTool()],
   schema: { types: schemas },
+  useCdn: false,
 });
 
 export default config;
